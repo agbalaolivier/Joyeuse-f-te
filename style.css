@@ -1,0 +1,53 @@
+/* styles.css */
+.header-container h1{
+    background-color:rgb(182, 44, 44)  ;
+    width: 70%;
+    height: 50px;
+    color:skyblue ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50% ;
+    margin: 0 auto;
+    
+    
+
+
+}
+.container {
+    text-align: center;
+    background-color: skyblue;
+    padding: 20px;
+    
+    width: 70%; /* Ajustez la largeur selon vos besoins */
+    height: 400px;
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    border-radius: 10px; /* Arrondi les coins pour un effet plus doux */
+    animation: rotation 5s 1 linear; /* Définit l'animation */
+
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.container p{
+    color: rgb(182, 44, 44);
+}
+.container img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+h1 {
+    color: rgb(182, 44, 44);
+    font-size: 36px;
+}
+
+img {
+    width: 300px;
+}
+
